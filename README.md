@@ -2,6 +2,8 @@
 
 我是 wwsun，来自杭州，主要工作的领域是低代码，逻辑编排，AIGC，中后台设计系统，前端工程化等。
 
+I am wwsun, from Hangzhou, mainly working in the fields of low-code, flow-based engineering, AIGC, internal design systems, and front-end engineering.
+
 ## 📘 最近的分享 Blog Posts
 
 - [2023, 云音乐低代码 + ChatGPT 实践方案与思考](https://juejin.cn/post/7239742600550350906)
