@@ -195,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 341.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,7 +210,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9f7e998fb6429429",
+  "active": "407b7dd056584dae",
   "lastOpenFiles": [
     "Templates/default.md",
     "Memo/未命名.md",
