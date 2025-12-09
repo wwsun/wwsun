@@ -4,23 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "674d3a898158e503",
+        "id": "85fc2bc5996407d4",
         "type": "tabs",
         "children": [
           {
-            "id": "49e419f2d35959bc",
+            "id": "ea4f412f87621765",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Posts.base",
-                "viewName": "表格"
+                "file": "Memo/AI Diagram Cheatsheet.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-list",
-              "title": "Posts"
+              "icon": "lucide-file",
+              "title": "AI Diagram Cheatsheet"
+            }
+          },
+          {
+            "id": "9f7e998fb6429429",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memo/AI Diagram Cheatsheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI Diagram Cheatsheet"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Posts.base",
+                "file": "Memo/AI Diagram Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Posts 的反向链接列表"
+              "title": "AI Diagram Cheatsheet 的反向链接列表"
             }
           },
           {
@@ -112,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Posts.base",
+                "file": "Memo/AI Diagram Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Posts 的出链列表"
+              "title": "AI Diagram Cheatsheet 的出链列表"
             }
           },
           {
@@ -155,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Posts.base",
+                "file": "Memo/AI Diagram Cheatsheet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Posts 的大纲"
+              "title": "AI Diagram Cheatsheet 的大纲"
             }
           },
           {
@@ -194,21 +210,32 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "49e419f2d35959bc",
+  "active": "9f7e998fb6429429",
   "lastOpenFiles": [
-    "Clippings/编排多个代理 - open ai.md",
+    "Templates/default.md",
+    "Memo/未命名.md",
+    "Memo/AI Diagram Cheatsheet.md",
+    "Templates/未命名.md",
+    "README.md",
+    "Memo/未命名 1.md",
+    "未命名.md",
+    "Files/Pasted image 20251209200220.png",
+    "Files",
+    "kroki_cheatsheet_20210515_v1.1_EN.pdf",
+    "Memo",
+    "Clippings/AI Powered Software Development Life Cycle.md",
     "Posts.base",
+    "2025-12-09.md",
+    "Clippings/编排多个代理 - open ai.md",
     "Clippings/YC 编写的 Vibe Coding 指南.md",
     "Clippings/Claude Code 最佳实践.md",
     "Clippings/AI 模型比较.md",
     "Clippings/浅谈LLM-based Agent(二)：你最想知道的工程那些事.md",
     "Clippings/初探：从0开始的AI-Agent开发踩坑实录.md",
-    "Templates/default.md",
     "Templates",
     "Clippings/AI Agents 101.md",
     "Clippings/How Anthropic Built a Multi-Agent Research System.md",
     "Clippings/Devin 教你做 Agent：把 AI 当做需要指导的初级开发者.md",
-    "Clippings/AI Powered Software Development Life Cycle.md",
     "Clippings/探索-规划-编码工作流程.md",
     "Clippings/为智能体编写高效工具——与智能体协作.md",
     "Clippings/My 20 Favorite ChatGPT Prompts for Coding in 2025.md",
@@ -217,10 +244,6 @@
     "Clippings/Claude Code 功能太强了——6 个月重度使用心得分享.md",
     "Clippings/中国版“标普500”上线：解读中证A500指数_中证网.md",
     "Clippings/从 0 到 1 开发一个 Agent（智能体）框架.md",
-    "Clippings/从 Copilot 到 通用 Agent ： 阿里在 AI Coding 上的应用和挑战.md",
-    "Clippings/AI驱动的测试用例和应用开发平台.md",
-    "Clippings/先用 Deep Research 掃清認知盲區，再用 Google 搜尋，我的 6 種學習新流程.md",
-    "README.md",
     "Blogs",
     "Clippings",
     "Plans",

@@ -9,28 +9,17 @@ description: In today’s fast-paced technology landscape, software development 
 tags:
   - clippings
   - AI
+  - SLDC
 ---
-[Sitemap](https://medium.com/sitemap/sitemap.xml)
 
-Get unlimited access to the best of Medium for less than $1/week.[Become a member 成为会员](https://medium.com/plans?source=upgrade_membership---post_top_nav_upsell-----------------------------------------)
+## 背景与动机
 
-[
-
-Become a member 成为会员
-
-](https://medium.com/plans?source=upgrade_membership---post_top_nav_upsell-----------------------------------------)
-
-## Background & Motivation 背景与动机
-
-In today’s fast-paced technology landscape, software development has become a critical driver of innovation and business success. With the advent of AI technologies like Codex and AI-powered pair programming tools, there’s an opportunity to revolutionize the way software development is approached. This article outlines a strategic approach for adopting Large Language Models capabilities such as Codex, Summarization & chat bots tools to enhance the software development lifecycle (SDLC) for improving productivity, efficiency, code quality and time to market while enforcing own SDLC standards and coding patterns.  
 在当今快速发展的技术环境中，软件开发已成为创新和商业成功的关键驱动力。随着像 Codex 这样的 AI 技术以及 AI 辅助的配对编程工具的出现，有机会彻底改变软件开发的方式。本文概述了一种战略方法，通过采用大型语言模型的能力，如 Codex、总结及聊天机器人工具，来提升软件开发生命周期（SDLC），从而提高生产力、效率、代码质量和上市时间，同时遵守自身的 SDLC 标准和编码模式。
 
-One of the key objectives of leveraging these tools is enable key resources such as Developers, Testers, SRE, Product & Agile coaches to focus on higher order thinking tasks such as design, review(s), architecture, business use case aspects while offloading lower order tasks such as documentation, test data creation, writing test cases, code, generating status reports to AI tools.  
 利用这些工具的一个关键目标是使开发人员、测试人员、SRE、产品经理及敏捷教练等关键资源能够专注于高层次的思考任务，如设计、审查、架构、业务用例等方面，而将低层次的任务，如文档编写、测试数据创建、编写测试用例、生成状态报告等，交给 AI 工具处理。
 
 ## Approach 方法
 
-Below diagram depicts various SDLC phases and some key tasks with average effort spent and compares AI Powered SDLC with no AI powered SDLC. AI powered SDLC includes leveraging AI tools such as Codex tools & LLM’s for code generation/suggestions, creation of unit test cases, creation of SQL statements, code analysis, code translations, generation of release notes, status reports, code documentation etc.  
 以下是 SDLC 各个阶段及其一些关键任务的示意图，并将 AI 驱动的 SDLC 与非 AI 驱动的 SDLC 进行了比较。AI 驱动的 SDLC 包括利用 Codex 工具和 LLM 生成/建议代码、创建单元测试用例、创建 SQL 语句、代码分析、代码翻译、生成发布说明、状态报告、代码文档等。
 
 ![](https://miro.medium.com/v2/resize:fit:640/format:webp/1*DyuEG5DB5JdxxCLotiPMAg.png)

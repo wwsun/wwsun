@@ -25,6 +25,10 @@
     {
       "folder": "Plans",
       "template": "Templates/default.md"
+    },
+    {
+      "folder": "Memo",
+      "template": "Templates/default.md"
     }
   ],
   "enable_file_templates": false,
