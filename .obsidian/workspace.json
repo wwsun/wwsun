@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "23be1de06630b80b",
+        "id": "a8c3d6dab702175c",
         "type": "tabs",
         "children": [
           {
-            "id": "8c38cd8d38346897",
+            "id": "a8f6a12963a105d9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/community-plugins.json",
-                "bFile": ".obsidian/community-plugins.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: community-plugins.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -191,8 +187,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8c38cd8d38346897",
+  "active": "21d5fca69f2908b7",
   "lastOpenFiles": [
+    "Clippings/AI Agents 101.md",
+    "Clippings/初探：从0开始的AI-Agent开发踩坑实录.md",
+    "Clippings/How Anthropic Built a Multi-Agent Research System.md",
+    "Clippings/Devin 教你做 Agent：把 AI 当做需要指导的初级开发者.md",
+    "Clippings/AI Powered Software Development Life Cycle.md",
+    "Clippings/探索-规划-编码工作流程.md",
+    "Clippings/为智能体编写高效工具——与智能体协作.md",
+    "Clippings/My 20 Favorite ChatGPT Prompts for Coding in 2025.md",
+    "Clippings/Multi-Agent 多智能体架构解析--DeerFlow  BestBlogs.dev.md",
+    "Clippings/Writing a good CLAUDE.md",
+    "Clippings/Claude Code 最佳实践.md",
+    "Clippings/浅谈LLM-based Agent(二)：你最想知道的工程那些事.md",
+    "Clippings/Claude Code 功能太强了——6 个月重度使用心得分享.md",
+    "Clippings/中国版“标普500”上线：解读中证A500指数_中证网.md",
+    "Clippings/从 0 到 1 开发一个 Agent（智能体）框架.md",
+    "Clippings/从 Copilot 到 通用 Agent ： 阿里在 AI Coding 上的应用和挑战.md",
+    "Clippings/AI驱动的测试用例和应用开发平台.md",
+    "Clippings/编排多个代理 - open ai.md",
+    "Clippings/YC 编写的 Vibe Coding 指南.md",
+    "Clippings/AI 模型比较.md",
+    "Clippings/先用 Deep Research 掃清認知盲區，再用 Google 搜尋，我的 6 種學習新流程.md",
     "README.md",
     "Blogs",
     "Clippings",
