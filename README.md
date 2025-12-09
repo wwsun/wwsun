@@ -10,11 +10,6 @@
       <img src="https://img.shields.io/twitter/follow/wwsun?style=social" alt="Twitter" />
     </a>
   </p>
-
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=wwsun&show_icons=true&theme=radical" height="180" alt="stats" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wwsun&layout=compact&theme=radical" height="180" alt="languages" />
-  </p>
 </div>
 
 <br/>
