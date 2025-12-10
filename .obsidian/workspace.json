@@ -34,9 +34,22 @@
               "icon": "lucide-file",
               "title": "AI Diagram Cheatsheet"
             }
+          },
+          {
+            "id": "6aff3be499de5b7b",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Posts.base",
+                "viewName": "表格"
+              },
+              "icon": "lucide-list",
+              "title": "Posts"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memo/AI Diagram Cheatsheet.md",
+                "file": "Posts.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "AI Diagram Cheatsheet 的反向链接列表"
+              "title": "Posts 的反向链接列表"
             }
           },
           {
@@ -128,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Memo/AI Diagram Cheatsheet.md",
+                "file": "Posts.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "AI Diagram Cheatsheet 的出链列表"
+              "title": "Posts 的出链列表"
             }
           },
           {
@@ -171,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memo/AI Diagram Cheatsheet.md",
+                "file": "Posts.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI Diagram Cheatsheet 的大纲"
+              "title": "Posts 的大纲"
             }
           },
           {
@@ -212,19 +225,22 @@
   },
   "active": "407b7dd056584dae",
   "lastOpenFiles": [
-    "Templates/default.md",
-    "Memo/未命名.md",
-    "Memo/AI Diagram Cheatsheet.md",
-    "Templates/未命名.md",
+    "Images.base",
+    "Posts.base",
     "README.md",
+    "Files/Pasted image 20251209200220.png",
+    "未命名",
+    "Memo/决策框架：想能应可已正将.md",
+    "Prompts",
+    "Memo/AI Diagram Cheatsheet.md",
+    "Templates/default.md",
+    "Templates/未命名.md",
     "Memo/未命名 1.md",
     "未命名.md",
-    "Files/Pasted image 20251209200220.png",
     "Files",
     "kroki_cheatsheet_20210515_v1.1_EN.pdf",
     "Memo",
     "Clippings/AI Powered Software Development Life Cycle.md",
-    "Posts.base",
     "2025-12-09.md",
     "Clippings/编排多个代理 - open ai.md",
     "Clippings/YC 编写的 Vibe Coding 指南.md",
@@ -243,10 +259,7 @@
     "Clippings/Writing a good CLAUDE.md",
     "Clippings/Claude Code 功能太强了——6 个月重度使用心得分享.md",
     "Clippings/中国版“标普500”上线：解读中证A500指数_中证网.md",
-    "Clippings/从 0 到 1 开发一个 Agent（智能体）框架.md",
     "Blogs",
-    "Clippings",
-    "Plans",
-    "Wiki"
+    "Clippings"
   ]
 }
