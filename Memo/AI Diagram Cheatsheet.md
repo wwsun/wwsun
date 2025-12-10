@@ -15,13 +15,12 @@ url: https://kroki.io/
 - UML/C4
 	- Sequence -- Mermaid
 	- E-R -- Erd
-	- Activity --
+	- Activity -- ActDiag
 	- Use Cases -- PlantUML
-	- UMLs --
 	- C4 Diagram -- PlantUML
 - Project Management
 	- Gantt Diagram --> Mermaid
 	- Business Process --> BPMN
 	- WBS --> PlantUML
 
-![[Pasted image 20251209200220.png]]
+![[diagrams-zoo.png]]
