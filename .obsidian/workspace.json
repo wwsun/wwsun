@@ -39,13 +39,14 @@
             "id": "6aff3be499de5b7b",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "split-diff-view",
               "state": {
-                "file": "Posts.base",
-                "viewName": "表格"
+                "aFile": "Images.base",
+                "bFile": "Images.base",
+                "aRef": ""
               },
-              "icon": "lucide-list",
-              "title": "Posts"
+              "icon": "diff",
+              "title": "Diff: Images.base"
             }
           }
         ],
@@ -122,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Posts.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Posts 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -141,12 +141,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Posts.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Posts 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -184,13 +183,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Posts.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Posts 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -223,16 +221,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6aff3be499de5b7b",
+  "active": "407b7dd056584dae",
   "lastOpenFiles": [
+    "Insights.base",
     "Images.base",
     "Posts.base",
+    "Memo/决策框架：想能应可已正将.md",
+    "Memo/AI Diagram Cheatsheet.md",
     "README.md",
     "Files/Pasted image 20251209200220.png",
     "未命名",
-    "Memo/决策框架：想能应可已正将.md",
     "Prompts",
-    "Memo/AI Diagram Cheatsheet.md",
     "Templates/default.md",
     "Templates/未命名.md",
     "Memo/未命名 1.md",

@@ -2,8 +2,6 @@ formulas:
   文件尺寸: |
     if(file.size < 1024, file.size.toString()+'B', if(file.size<1024*1024, (file.size/1024).toFixed(2).toString()+'KB', (file.size/(1024*1024)).toString()+'MB'))
 views:
-  - type: table
-    name: 表格
   - type: cards
     name: 视图
     filters:
