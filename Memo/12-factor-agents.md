@@ -25,6 +25,8 @@ Even if LLMs [continue to get exponentially more powerful](https://github.com/hu
 
 ## own your prompts
 
+==LLM 决定“做什么”，而你的代码控制“如何做”。
+
 ```baml
 function DetermineNextStep(thread: string) -> DoneForNow | ListGitTags | DeployBackend | DeployFrontend | RequestMoreInformation {
   prompt #"
