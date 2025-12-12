@@ -1,5 +1,5 @@
 views:
-  - type: table
+  - type: cards
     name: 表格
     filters:
       and:

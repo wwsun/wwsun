@@ -1,11 +1,8 @@
 ---
-status:
-priority:
-type:
-  - insight
 created: 2025-12-09T20:14:00
 tags:
   - diagram
+  - mermaid
 url: https://kroki.io/
 ---
 - Common Graphs

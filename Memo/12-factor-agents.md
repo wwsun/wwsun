@@ -1,11 +1,8 @@
 ---
-status:
-  - todo / doing / waiting / done / cancelled
-priority: P0 / P1 / P2 / P3
-type: project / blog / patent / task / wiki / meeting
 created: 2025-12-10 20:33
 url: https://github.com/humanlayer/12-factor-agents
 tags:
+  - agent
 ---
 Even if LLMs [continue to get exponentially more powerful](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-10-small-focused-agents.md#what-if-llms-get-smarter), there will be core engineering techniques that make LLM-powered software more reliable, more scalable, and easier to maintain.
 

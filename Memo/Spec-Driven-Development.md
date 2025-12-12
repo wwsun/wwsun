@@ -1,8 +1,8 @@
 ---
-type: project / blog / patent / task / wiki / meeting
 created: 2025-12-10 20:21
 url:
 tags:
+  - AI-Code
 ---
 ## 参考
 

@@ -3,5 +3,6 @@
   "things-style@@fancy-code": false,
   "things-style@@fancy-highlight": true,
   "things-style@@progress-color": true,
-  "things-style@@h2-underline": false
+  "things-style@@h2-underline": false,
+  "id@@callout-on": true
 }
