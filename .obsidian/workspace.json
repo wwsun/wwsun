@@ -11,14 +11,13 @@
             "id": "296848793349798a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Wiki/Claude.md.md",
-                "mode": "source",
-                "source": false
+                "file": "Web Clippings.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "Claude.md"
+              "icon": "lucide-table",
+              "title": "Web Clippings"
             }
           }
         ]
@@ -167,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Claude.md.md",
+                "file": "Web Clippings.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Claude.md 的大纲"
+              "title": "Web Clippings 的大纲"
             }
           }
         ],
@@ -187,7 +186,6 @@
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
@@ -198,22 +196,26 @@
   },
   "active": "407b7dd056584dae",
   "lastOpenFiles": [
-    "Wiki/Claude Code Hooks.md",
+    "Posts.base",
+    "Insights.base",
+    "Images.base",
+    "Web Clippings.base",
+    "Clippings/Claude Code 功能太强了——6 个月重度使用心得分享.md",
+    "Clippings/Gemini 3.0 系统提示词.md",
+    "Prompts/Daily prompts.md",
+    "Wiki/pnpm.md",
+    "Memo/AI Diagram Cheatsheet.md",
     "Wiki/Claude.md.md",
+    "Wiki/Claude Code Hooks.md",
     "Memo/Spec-Driven-Development.md",
     "Memo/Rebase or Merge master.md",
     "Memo/gpt-5 vs gpt-4.1.md",
     "Clippings/GPT-5 vs GPT-4.1 - choosing the right model for your use case - Azure OpenAI in Microsoft Foundry Models.md",
     "Memo/Obsidian Markdown.md",
     "README.md",
-    "Insights.base",
-    "Images.base",
-    "Posts.base",
     "Clippings/我是如何让我的团队转向规范驱动开发.md",
     "Memo/12-factor-agents.md",
     "Memo/决策框架：想能应可已正将.md",
-    "Memo/AI Diagram Cheatsheet.md",
-    "Prompts/Daily prompts.md",
     "Templates/default.md",
     "Files/diagrams-zoo.png",
     "Files/context-engineering.png",
@@ -230,11 +232,6 @@
     "Clippings/编排多个代理 - open ai.md",
     "Clippings/YC 编写的 Vibe Coding 指南.md",
     "Clippings/Claude Code 最佳实践.md",
-    "Clippings/AI 模型比较.md",
-    "Clippings/浅谈LLM-based Agent(二)：你最想知道的工程那些事.md",
-    "Clippings/初探：从0开始的AI-Agent开发踩坑实录.md",
-    "Templates",
-    "Clippings/AI Agents 101.md",
-    "Blogs"
+    "Templates"
   ]
 }

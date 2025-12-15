@@ -10,8 +10,6 @@ tags:
   - clippings
   - claude
 ---
-编辑：很多人都在要求一个代码仓库，所以我会努力在接下来几天内搭建一个。目前这些都是工作项目的一部分，所以我需要花些时间把所有内容复制到一个新项目中，并清除任何身份识别信息。搭建好后我会在这里发布链接。你们也可以关注我，我会在我的个人资料上发布，这样你们就能收到通知。感谢大家的友善评论。我很高兴能与其他人分享这些信息，因为在日常工作中我没有太多机会这样做。
-
 
 编辑（最终版？）：我咬咬牙，花了一个下午为你们搭建了一个 github 代码仓库。刚刚发了一个帖子，里面有一些额外信息，你们可以看这里，或者直接去源地址：
 
@@ -19,7 +17,6 @@ tags:
 🎯 代码仓库：https://github.com/diet103/claude-code-infrastructure-showcase
 
 *Quick tip from a fellow lazy person: You can throw this book of a post into one of the many text-to-speech AI services like* [*ElevenLabs Reader*](https://elevenlabs.io/text-reader) *or* [*Natural Reader*](https://www.naturalreaders.com/online/) *and have it read the post for you* :)  
-来自一个懒人的小贴士：你可以把这篇长篇大论的帖子丢到众多文本转语音 AI 服务中的任何一个，比如 ElevenLabs Reader 或 Natural Reader，让它为你朗读这篇帖子 :)
 
 #  免责声明
 
