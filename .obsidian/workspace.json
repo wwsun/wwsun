@@ -4,23 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "ff5990b4e7fe66b4",
+        "id": "4dec9e82f6e29663",
         "type": "tabs",
         "children": [
           {
-            "id": "296848793349798a",
+            "id": "85522f1b6df459fa",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Web Clippings.base",
-                "viewName": "表格"
+                "file": "Memo/Vibe Engineering.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Web Clippings"
+              "icon": "lucide-file",
+              "title": "Vibe Engineering"
+            }
+          },
+          {
+            "id": "35fbe1d0047d147e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/使用 Claude Agent SDK 构建智能体.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "使用 Claude Agent SDK 构建智能体"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Clippings.base",
+                "file": "Clippings/使用 Claude Agent SDK 构建智能体.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Web Clippings 的大纲"
+              "title": "使用 Claude Agent SDK 构建智能体 的大纲"
             }
           }
         ],
@@ -196,10 +212,25 @@
   },
   "active": "407b7dd056584dae",
   "lastOpenFiles": [
+    "Clippings/为智能体编写高效工具.md",
+    "Clippings/探索-规划-编码工作流程.md",
+    "Clippings/编排多个代理.md",
+    "Clippings/使用 Claude Agent SDK 构建智能体.md",
+    "Files/claude-agent-sdk-loop.png",
+    "Memo/Vibe Coding.md",
+    "Memo/Vibe Engineering.md",
+    "README.md",
+    "Images.base",
+    "Files/how-llms-use-agents-for-deep-research.png",
+    "Files/what-is-an-ai-agent.png",
+    "Files/high-level-steps-of-deep-research-with-agents.png",
+    "Files/high-level-architecture-of-advanced-research.png",
+    "Memo/Deep Research Agent.md",
+    "Files/vibe-engineering-important-case.png",
+    "Web Clippings.base",
+    "Memo/Obsidian Markdown.md",
     "Posts.base",
     "Insights.base",
-    "Images.base",
-    "Web Clippings.base",
     "Clippings/Claude Code 功能太强了——6 个月重度使用心得分享.md",
     "Clippings/Gemini 3.0 系统提示词.md",
     "Prompts/Daily prompts.md",
@@ -211,8 +242,6 @@
     "Memo/Rebase or Merge master.md",
     "Memo/gpt-5 vs gpt-4.1.md",
     "Clippings/GPT-5 vs GPT-4.1 - choosing the right model for your use case - Azure OpenAI in Microsoft Foundry Models.md",
-    "Memo/Obsidian Markdown.md",
-    "README.md",
     "Clippings/我是如何让我的团队转向规范驱动开发.md",
     "Memo/12-factor-agents.md",
     "Memo/决策框架：想能应可已正将.md",
@@ -223,15 +252,9 @@
     "Prompts",
     "Templates/未命名.md",
     "Memo/未命名 1.md",
-    "未命名.md",
     "Files",
     "kroki_cheatsheet_20210515_v1.1_EN.pdf",
     "Memo",
-    "Clippings/AI Powered Software Development Life Cycle.md",
-    "2025-12-09.md",
-    "Clippings/编排多个代理 - open ai.md",
-    "Clippings/YC 编写的 Vibe Coding 指南.md",
-    "Clippings/Claude Code 最佳实践.md",
     "Templates"
   ]
 }

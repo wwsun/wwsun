@@ -11,7 +11,6 @@ views:
     sort:
       - property: file.ctime
         direction: DESC
-    rowHeight: medium
     columnSize:
       file.name: 376
       note.description: 432

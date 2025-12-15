@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Hi there, I'm wwsun 👋</h1>
-  <p>AI Agent / Low-code / aPaaS Developer</p>
+  <p>AI Agent / Web Engineering / Low-code / Open Source</p>
 
   <p>
     <a href="https://github.com/wwsun">
