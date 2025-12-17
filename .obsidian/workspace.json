@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4dec9e82f6e29663",
+        "id": "b7963fbf1f1356f9",
         "type": "tabs",
         "children": [
           {
-            "id": "85522f1b6df459fa",
+            "id": "eebc84fbfacf0383",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memo/Vibe Engineering.md",
+                "file": "Wiki/Claude.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vibe Engineering"
-            }
-          },
-          {
-            "id": "35fbe1d0047d147e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/使用 Claude Agent SDK 构建智能体.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "使用 Claude Agent SDK 构建智能体"
+              "title": "Claude.md"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/使用 Claude Agent SDK 构建智能体.md",
+                "file": "Wiki/Claude.md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "使用 Claude Agent SDK 构建智能体 的大纲"
+              "title": "Claude.md 的大纲"
             }
           }
         ],
@@ -212,20 +197,24 @@
   },
   "active": "407b7dd056584dae",
   "lastOpenFiles": [
+    "Images.base",
+    "README.md",
+    "Files/how-llms-use-agents-for-deep-research.png",
+    "Memo/Agent Workflow Patterns.md",
+    "Files/ai-agentic-workflow-design-patterns.png",
+    "Memo/Deep Research Agent.md",
+    "Wiki/fd.md",
+    "Wiki/npm.md",
+    "Memo/Vibe Engineering.md",
+    "Files/what-is-an-ai-agent.png",
+    "Clippings/使用 Claude Agent SDK 构建智能体.md",
     "Clippings/为智能体编写高效工具.md",
     "Clippings/探索-规划-编码工作流程.md",
     "Clippings/编排多个代理.md",
-    "Clippings/使用 Claude Agent SDK 构建智能体.md",
     "Files/claude-agent-sdk-loop.png",
     "Memo/Vibe Coding.md",
-    "Memo/Vibe Engineering.md",
-    "README.md",
-    "Images.base",
-    "Files/how-llms-use-agents-for-deep-research.png",
-    "Files/what-is-an-ai-agent.png",
     "Files/high-level-steps-of-deep-research-with-agents.png",
     "Files/high-level-architecture-of-advanced-research.png",
-    "Memo/Deep Research Agent.md",
     "Files/vibe-engineering-important-case.png",
     "Web Clippings.base",
     "Memo/Obsidian Markdown.md",
@@ -244,14 +233,10 @@
     "Clippings/GPT-5 vs GPT-4.1 - choosing the right model for your use case - Azure OpenAI in Microsoft Foundry Models.md",
     "Clippings/我是如何让我的团队转向规范驱动开发.md",
     "Memo/12-factor-agents.md",
-    "Memo/决策框架：想能应可已正将.md",
-    "Templates/default.md",
     "Files/diagrams-zoo.png",
     "Files/context-engineering.png",
     "未命名",
     "Prompts",
-    "Templates/未命名.md",
-    "Memo/未命名 1.md",
     "Files",
     "kroki_cheatsheet_20210515_v1.1_EN.pdf",
     "Memo",
