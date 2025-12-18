@@ -2,6 +2,7 @@
 created: 2025-12-18 09:49
 url:
 tags:
+  - ssh
 ---
 ## 密钥生成
 
@@ -22,6 +23,7 @@ ssh-keygen -t ed25519 -C "sunweiwei01@corp.xxx.com"
 |**连接云服务/GitHub**|`ssh-keygen -t ed25519`|
 |**企业合规要求 NIST**|`ssh-keygen -t ecdsa -b 384`|
 |**硬件安全密钥 (FIDO2)**|`ssh-keygen -t ed25519-sk`|
+[[ssh 密钥类型对比]]
 
 ## 常用配置
 

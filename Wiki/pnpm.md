@@ -5,7 +5,7 @@ tags:
   - pnpm
   - monorepo
 ---
-## pnpm add pkg-name
+## pnpm add
 
 ```bash
 # save to dependencies
@@ -13,9 +13,12 @@ pnpm add sax
 
 # save to devDependencies
 pnpm add -D sax
+
+# save to workspace devDependencies of package.json
+pnpm add -Dw dotenv @gitbeaker/rest
 ```
 
-## pnpm update/up
+## pnpm update
 
 ```bash
 pnpm up
@@ -27,6 +30,7 @@ https://pnpm.io/cli/update
 
 ## workspace
 monorepo support
+
 https://pnpm.io/zh/workspaces
 
 ### `pnpm-workspace.yaml`

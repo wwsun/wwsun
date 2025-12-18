@@ -12,8 +12,6 @@
   </p>
 </div>
 
-<br/>
-
 ### About Me
 
 我是 wwsun，目前主要工作的领域是 AI Agent（智能体开发、工具链开发、端到端智能体）、低代码([Tango](https://github.com/NetEase/tango)，包括中后台低码，RN跨端低码），后端服务编排([TangoFlow](https://juejin.cn/post/7325337414444433448))，此前相关的工作领域还包括中后台设计系统（[Alibaba FusionDesign](https://github.com/alibaba-fusion), [REX Design](https://github.com/alibaba/rex-design)），设计工程化([Alibaba FusionCool](https://github.com/alibaba-fusion/cool))，前端工程化等。

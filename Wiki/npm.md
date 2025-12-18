@@ -15,9 +15,9 @@ npm outdated -g --depth=0
 或者使用 `npm-check`
 
 ```bash
-# npm i npm-check -g
-
 npm-check -g
+
+npm-check -gu
 ```
 
 [https://github.com/dylang/npm-check](https://github.com/dylang/npm-check)
