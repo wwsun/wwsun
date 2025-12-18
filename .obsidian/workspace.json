@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Claude.md.md",
+                "file": "Wiki/fnm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude.md"
+              "title": "fnm"
+            }
+          },
+          {
+            "id": "d76c55f9656e2e1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/claude-code-router.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "claude-code-router"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Claude.md.md",
+                "file": "Wiki/claude-code-router.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Claude.md 的大纲"
+              "title": "claude-code-router 的大纲"
             }
           }
         ],
@@ -197,6 +212,13 @@
   },
   "active": "407b7dd056584dae",
   "lastOpenFiles": [
+    "Wiki/fnm.md",
+    "Wiki/claude-code-router.md",
+    "Memo/AI Diagram Cheatsheet.md",
+    "Memo/12-factor-agents.md",
+    "Prompts/日常工作 Prompts.md",
+    "Prompts/Daily prompts.md",
+    "Wiki/Claude.md.md",
     "Images.base",
     "README.md",
     "Files/how-llms-use-agents-for-deep-research.png",
@@ -222,17 +244,11 @@
     "Insights.base",
     "Clippings/Claude Code 功能太强了——6 个月重度使用心得分享.md",
     "Clippings/Gemini 3.0 系统提示词.md",
-    "Prompts/Daily prompts.md",
     "Wiki/pnpm.md",
-    "Memo/AI Diagram Cheatsheet.md",
-    "Wiki/Claude.md.md",
     "Wiki/Claude Code Hooks.md",
     "Memo/Spec-Driven-Development.md",
     "Memo/Rebase or Merge master.md",
     "Memo/gpt-5 vs gpt-4.1.md",
-    "Clippings/GPT-5 vs GPT-4.1 - choosing the right model for your use case - Azure OpenAI in Microsoft Foundry Models.md",
-    "Clippings/我是如何让我的团队转向规范驱动开发.md",
-    "Memo/12-factor-agents.md",
     "Files/diagrams-zoo.png",
     "Files/context-engineering.png",
     "未命名",
