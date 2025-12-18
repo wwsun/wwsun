@@ -68,3 +68,30 @@ npm login --registry <http://localhost:4873/>
 npm whoami --registry <http://localhost:4873/>
 
 ```
+
+## workspace
+
+```bash
+# 添加新的子项目 
+npm init -w ./packages/a 
+
+# 根目录安装依赖 
+npm i --save-dev eslint 
+
+# 向工作区添加依赖 
+npm install abbrev -w a 
+
+# 在工作区上下文中运行命令 
+npm run test --workspace=a 
+
+# 为每个工作区运行相同的命令 
+npm run test --workspace=packages 
+
+# 忽略缺失的脚本 
+npm run test --workspaces --if-present 
+
+# -w, --workspace : 指定操作的 workspace 
+# -W, --workspace-root: 指向根目录（根 package.json） 
+# 升级依赖 
+npm outdated -W
+```

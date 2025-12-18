@@ -18,6 +18,9 @@ npm install -g @musistudio/claude-code-router
 # Start Claude Code using the router:
 ccr code
 
+# Restart Claude Code 
+ccr restart
+
 # UI Mode
 ccr ui
 ```
