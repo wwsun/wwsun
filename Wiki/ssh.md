@@ -4,6 +4,7 @@ url:
 tags:
   - ssh
 ---
+macOS 自带 SSH 客户端（`ssh`、`ssh-keygen` 等），无需额外安装。
 ## 密钥生成
 
 ```
@@ -14,16 +15,52 @@ ssh-keygen -t ed25519 -C "ww.sun@outlook.com"
 ssh-keygen -t ed25519 -C "sunweiwei01@corp.xxx.com"
 ```
 
-## 密钥类型选择
+### 密钥类型选择
 
-|场景|推荐命令|
-|---|---|
-|**日常使用（首选）**|`ssh-keygen -t ed25519 -C "your_email"`|
-|**需要最大兼容性**|`ssh-keygen -t rsa -b 4096`|
-|**连接云服务/GitHub**|`ssh-keygen -t ed25519`|
-|**企业合规要求 NIST**|`ssh-keygen -t ecdsa -b 384`|
-|**硬件安全密钥 (FIDO2)**|`ssh-keygen -t ed25519-sk`|
+| 场景                 | 推荐命令                                    |
+| ------------------ | --------------------------------------- |
+| **日常使用（首选）**       | `ssh-keygen -t ed25519 -C "your_email"` |
+| **需要最大兼容性**        | `ssh-keygen -t rsa -b 4096`             |
+| **连接云服务/GitHub**   | `ssh-keygen -t ed25519`                 |
+| **企业合规要求 NIST**    | `ssh-keygen -t ecdsa -b 384`            |
+| **硬件安全密钥 (FIDO2)** | `ssh-keygen -t ed25519-sk`              |
 [[ssh 密钥类型对比]]
+
+### 添加私钥到 ssh-agent
+
+```
+ssh-add id_ed25519
+```
+
+### 拷贝公钥到平台
+
+```
+pbcopy < ~/.ssh/id_ed25519.pub
+```
+
+### 配置验证
+
+```bash
+ssh -F ~/.ssh/config -T git@github.com
+
+# 如果配置了 config
+ssh -T git@github.com
+```
+
+### 查看实际使用的配置
+
+```bash
+ssh -G hostname
+```
+
+### 登陆服务器
+
+```bash
+ssh 用户名@服务器地址
+# 例如：
+ssh root@192.168.1.10
+ssh ubuntu@example.com
+```
 
 ## 常用配置
 
@@ -35,11 +72,11 @@ Host *
   UseKeychain yes
   AddKeysToAgent yes
 
-Host github
+Host github.com
   HostName github.com
   IdentityFile ~/.ssh/id_ed25519
 
-Host netease
+Host netease.com
   HostName g.hz.netease.com
   Port 22222
   User sunweiwei01
@@ -156,7 +193,7 @@ Host tunnel
 
 ```
 
-## 7性能优化配置
+## 性能优化配置
 
 ```bash
 Host *
@@ -203,19 +240,3 @@ chmod 600 ~/.ssh/id_rsa*
 chmod 644 ~/.ssh/id_rsa*.pub
 
 ```
-
-## 实用技巧
-
-### 配置验证
-
-```bash
-ssh -F ~/.ssh/config -T git@github.com
-
-```
-
-### 查看实际使用的配置
-
-```bash
-ssh -G hostname
-```
-
