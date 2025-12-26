@@ -3,6 +3,27 @@ created: 2025-12-17 16:19
 url: https://www.latepost.com/news/dj_detail?id=3278
 tags:
 ---
+基本结构：将指令拆分为「角色」「目标」「输入」「输出」「约束」「示例」6 个模块，结构更清晰。
+
+## 寻找问题解决思路
+
+Explain various problem-solving techniques and methodologies that I can apply to {specific type of problem or industry}. Provide examples and scenarios for practice.
+
+解决问题的技巧：解释我可以应用于 {特定类型的问题或行业} 的各种解决问题的技巧和方法。提供练习的例子和场景。
+
+## 获取阅读素材
+
+Create a curated reading list of advanced books, articles, and papers in the field of {specific subject}. Include a brief summary and the key concepts covered in each resource.
+
+## 技能提升 Roadmap
+
+Outline a step-by-step roadmap for me to develop proficiency in {specific skill or hobby} Include beginner to advanced stages and practical exercises.
+
+## 制定学习计划
+
+Create a detailed learning plan for me to become an expert in {specific subject or skill} within {desired timeframe}. Include daily study schedules, recommended resources, and milestones.
+
+
 ## 多人多轮头脑风暴
 
 ```
@@ -15,7 +36,7 @@ tags:
 ```
 
 
-## 总结
+## 文章总结
 
 ```
 请阅读链接（https://www.latepost.com/news/dj_detail?id=3237）指向的文章，并分点输出一份总结，重点分析：
@@ -25,7 +46,7 @@ tags:
 ```
 
 
-## 周报
+## 周报生成
 
 ```
 你是一名销售经理，工作多年、擅长汇报。本周，你完成了下面的工作：
@@ -60,7 +81,7 @@ tags:
 
 ## 信息图生成
 
-把文章变成卡通信息图的提示词：
+把文章变成卡通信息图的提示词，要用 nano banana pro
 
 ```
 
@@ -89,3 +110,38 @@ tags:
 - 加入少量图标或插画，增强趣味性和视觉记忆。
 - 图形中使用尽可能少的文本，如果一定要有文本请使用英文。
 ```
+
+## 博客封面生成
+
+要用 nano banana pro
+
+```
+请根据提供的内容创建一张吸引眼球的公众号封面图，遵循以下规范：  
+  
+视觉风格  
+- 手绘插画风格，比例为 2.35:1（公众号封面标准尺寸）  
+- 色彩鲜明、对比强烈，确保在小尺寸预览时依然醒目  
+- 风格统一，避免写实元素，保持整体手绘质感  
+  
+构图要求  
+- 主视觉元素居中或偏左（右侧预留标题区域）  
+- 添加 1-2 个简洁的卡通形象、图标或知名人物剪影，增强记忆点  
+- 若涉及敏感或版权人物，用风格相似的替代形象，不得拒绝生成  
+- 大量留白，突出核心信息，避免画面拥挤  
+  
+文字处理  
+- 标题文字大而醒目，控制在 8 字以内  
+- 可添加 1 行副标题或关键词标签  
+- 字体风格与手绘插画协调统一  
+  
+吸引力法则  
+- 使用悬念、数字、痛点等钩子元素激发点击欲望  
+- 视觉元素夸张有反差  
+- 色彩搭配参考爆款封面：橙黄、蓝紫、红黑等高对比组合  
+  
+语言  
+- 除非另有说明，默认使用中文  
+  
+请根据输入内容生成封面图。
+```
+
