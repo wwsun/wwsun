@@ -18,15 +18,42 @@ pnpm add -D sax
 pnpm add -Dw dotenv @gitbeaker/rest
 ```
 
-## pnpm update
+## pnpm outdated
+
+检查过期的包。 
 
 ```bash
+pnpm outdated --filter @music/agents
+```
+
+## pnpm update
+
+`pnpm update` 基于指定的范围更新包到它们的最新版本。
+
+- `-r` 同时在所有子目录中使用 `package.json` (不包括 `node_modules`) 运行更新。
+- `-i` 显示过时的依赖项并选择要更新的依赖项。
+
+```bash
+# 更新
 pnpm up
 
+# 交互式更新
 pnpm up -i
 ```
 
 https://pnpm.io/cli/update
+
+推荐使用 `npm-check-updates`
+
+- `-i` 交互式升级
+- `-u` 直接更新
+
+```bash
+pnpm dlx npm-check-updates --packageFile [package.json]
+```
+
+https://github.com/raineorshine/npm-check-updates
+
 
 ## workspace
 monorepo support
