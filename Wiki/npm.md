@@ -21,6 +21,15 @@ npm-check -gu
 ```
 
 [https://github.com/dylang/npm-check](https://github.com/dylang/npm-check)
+## 升级项目依赖
+
+使用 `npm-check-updates`
+
+```
+# workspace 级别
+npx npm-check-updates -w -i
+```
+
 
 ## 添加/更新 tag 到指定版本
 
@@ -28,6 +37,8 @@ npm-check -gu
 npm dist-tag add <package>@<version> <tag>
 
 npm dist-tag add my-lib@2.0.0-beta.1 beta
+
+npm dist-tag add my-lib@2.0.0-beta.1 latest
 ```
 
 移除 tag

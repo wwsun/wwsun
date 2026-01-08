@@ -26,6 +26,33 @@ git remote -v
 git remote show origin
 ```
 
+## 撤消最近一次 git 提交
+
+### 只想修改最近一次提交的内容/说明
+
+- 提交里少加了一个文件
+- 提交信息（commit message）写错了
+- 还没推送到远程，或即使推了也允许改历史
+
+```bash
+# 修改文件、git add ...
+git add <文件或目录>
+
+# 用新的内容覆盖最近一次提交（提交信息不变）
+git commit --amend
+# 或者同时更改提交说明
+git commit --amend -m "新的提交说明"
+```
+
+### 完全撤销最近一次提交，但保留工作区修改
+
+- 提交早了，想撤销提交，但保留改动继续编辑
+- 本地操作，历史可重写
+
+```bash
+git reset --soft HEAD~1
+```
+
 ## Remote Prune 清空本地过期的远程分支
 
 ```bash
