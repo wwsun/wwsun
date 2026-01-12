@@ -5,9 +5,36 @@ tags:
   - claude-code
   - agent
 ---
-钩子允许在 Claude Code 特定事件发生时自动执行 shell 命令，实现自动化工作流。
+## 自定义配置
 
-## 事件列表
+```json
+# 编辑或新增 `settings.json` 文件
+# MacOS & Linux 为 `~/.claude/settings.json`
+# Windows 为`用户目录/.claude/settings.json`
+# 新增或修改里面的 env 字段
+# 注意替换里面的 `your_zhipu_api_key` 为您上一步获取到的 API Key
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "your_zhipu_api_key",
+    "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1
+  }
+}
+# 再编辑或新增 `.claude.json` 文件
+# MacOS & Linux 为 `~/.claude.json`
+# Windows 为`用户目录/.claude.json`
+# 新增 `hasCompletedOnboarding` 参数
+{
+  "hasCompletedOnboarding": true
+}
+```
+
+- GLM + Claude Code https://docs.bigmodel.cn/cn/guide/develop/claude
+
+## Hooks
+
+钩子允许在 Claude Code 特定事件发生时自动执行 shell 命令，实现自动化工作流。
 
 |钩子事件|触发时机|常用场景|
 |---|---|---|

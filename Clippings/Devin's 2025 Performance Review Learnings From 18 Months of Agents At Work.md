@@ -15,10 +15,8 @@ Devin 现在已经合并了**数十万条 PR**。
 
 ## 我们如何评估 Devin
 
-We first tried to calibrate Devin against a traditional engineering competency matrix, but this was difficult. While human engineers tend to cluster around a level, Devin is senior-level at codebase understanding but junior at execution. It has infinite capacity but struggles at soft skills.  
 我们最初尝试用传统的工程师能力矩阵来评估 Devin，但这很困难。虽然人类工程师通常会集中在某一个级别，Devin 在代码库理解方面达到了高级水平，但在执行力上却是初级。它有无限的容量，但在软技能方面表现不佳。
 
-Instead we summarized Devin's strengths and weaknesses in real-world environments, with examples and metrics from customers. We hope this will be helpful to anyone who's interested in real-world agent deployment.  
 因此，我们总结了 Devin 在真实环境中的优势和劣势，并结合了客户的案例和数据。我们希望这些内容能对任何关注真实世界代理部署的人有所帮助。
 
 ## 优势模式一：无限规模下的初级执行
@@ -96,7 +94,6 @@ When onboarding to a codebase, Devin generates comprehensive, always-updating do
 
 [![](https://cdn.sanity.io/images/2mc9cv2v/production/de62d08befecf33f2f0f55f4ca35f35a831a4138-2916x1908.png)](https://cdn.sanity.io/images/2mc9cv2v/production/de62d08befecf33f2f0f55f4ca35f35a831a4138-2916x1908.png)
 
-A bank could re-allocate several engineering teams from a big documentation project to new feature development, since **Devin generated documentation across 400,000+ repositories**.  
 一家银行可以将多个工程团队从大型文档项目中重新分配到新功能开发上，因为 Devin 已经为超过 400,000 个代码库生成了文档。
 
 ### 规划
@@ -104,25 +101,20 @@ A bank could re-allocate several engineering teams from a big documentation proj
 When engineers are planning work, they will look at the documentation and chat with Devin ([AskDevin](https://docs.devin.ai/work-with-devin/ask-devin)) to understand the system. Devin can explain with architecture diagrams, map dependencies, and flag any breaking changes, and recommend what should be tackled by humans vs AI.  
 当工程师们在规划工作时，他们会查阅文档并与 Devin（AskDevin）聊天，以了解系统情况。Devin 可以通过架构图进行解释，映射依赖关系，标记任何可能导致系统崩溃的变更，并建议哪些任务应该由人类完成，哪些可以交给 AI 处理。
 
-One engineer told us that he could **generate draft architecture in 15 minutes** for others to react to.  
 一位工程师告诉我们，他可以在 15 分钟内生成草拟的架构，供其他人反馈。
 
 ## Devin 的改进方向
 
 ### 在模糊需求下的独立执行
 
-**Like most junior engineers, Devin does best with clear requirements.** Devin can't independently tackle an ambiguous coding project end-to-end like a senior engineer could, using its own judgement. For example, in visual design, Devin needs specifics like component structure, color codes, and spacing values.  
 和大多数初级工程师一样，Devin 在有明确需求时表现最佳。Devin 无法像高级工程师那样，凭借自己的判断独立完成一个模糊的编码项目。例如，在视觉设计方面，Devin 需要具体的信息，如组件结构、颜色代码和间距数值。
 
-When outcomes aren't straightforwardly verifiable, additional human review is necessary. Humans check unit testing logic after Devin takes the first pass, and check its code reviews.  
 当结果无法直接验证时，需要额外的人类审核。在 Devin 完成初步工作后，人类会检查单元测试逻辑，并审核其代码评审。
 
 ### 范围变更与迭代协作
 
-Devin handles clear upfront scoping well, but not mid-task requirement changes. It usually performs worse when you keep telling it more after it starts the task. This differs from human juniors: you can coach a human through iterative problem-solving.  
 Devin 在明确的前期范围界定方面表现良好，但在任务进行中遇到需求变更时处理得不好。当你在它开始任务后不断补充信息时，它的表现通常会变差。这与人类初级员工不同：你可以通过迭代式问题解决过程对人类进行指导。
 
-This puts more of a responsibility on the engineer to scope work well up-front. Engineers working with Devin have to adjust to learning how to "manage" Devin effectively.  
 这让工程师在前期对工作的范围界定上承担了更多责任。与 Devin 合作的工程师必须学会如何有效地“管理”Devin。
 
 ### 软技能与人际协作
