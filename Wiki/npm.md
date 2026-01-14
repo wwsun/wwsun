@@ -78,6 +78,30 @@ npm login --registry <http://localhost:4873/>
 # 查看当前用户
 npm whoami --registry <http://localhost:4873/>
 
+# log in, linking the scope to the custom registry 
+npm login --scope=@mycorp --registry=https://registry.mycorp.com 
+
+# netease npm 
+npm login --scope=@music --registry=http://rnpm.hz.netease.com 
+
+
+# log out, removing the link and the auth token 
+npm logout --scope=@mycorp
+```
+
+### 发布私有包
+
+需要在 `package.json` 中加入 `publishConfig`
+
+```
+{
+  "name": "@music/psionic-api-register",
+  "version": "1.0.0-beta.0",
+  // ... 其他配置 ...
+  "publishConfig": {
+    "registry": "http://rnpm.hz.netease.com/"
+  }
+}
 ```
 
 ## workspace
@@ -106,3 +130,4 @@ npm run test --workspaces --if-present
 # 升级依赖 
 npm outdated -W
 ```
+
