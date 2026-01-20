@@ -1,11 +1,12 @@
 ---
-description: "Stop debating which is the best LLM for coding. I built Cont3xt.dev to give any AI coding tool your team's context."
-source: "https://www.ksred.com/cont3xt-dev-solving-the-ai-context-problem/"
+description: Stop debating which is the best LLM for coding. I built Cont3xt.dev to give any AI coding tool your team's context.
+source: https://www.ksred.com/cont3xt-dev-solving-the-ai-context-problem/
 author:
   - "[[Kyle Redelinghuys]]"
 created: 2026-01-19
 tags:
-  - "clippings"
+  - clippings
+  - cont3xt
 ---
 在过去的一年里，我大量使用了 AI 编程工具。Claude、Cursor、GitHub Copilot——它们现在都是我日常工作流程的一部分。但我总是遇到同样令人沮丧的情况。
 
