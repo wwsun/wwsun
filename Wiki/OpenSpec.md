@@ -5,6 +5,274 @@ tags:
   - SDD
   - AI-Code
 ---
+# 快速上手
+
+本指南介绍了在安装并初始化 OpenSpec 之后如何使用它。安装说明请参阅[主 README](../README.md#quick-start)。
+
+安装完成后首先执行 `openspec init`
+
+## 工作原理
+
+OpenSpec 帮助你和 AI 编码助手在编写任何代码之前就达成共识:要构建什么。工作流程遵循一个简单的模式:
+
+```
+┌────────────────────┐
+│ 开始变更           │  /opsx:new
+└────────┬───────────┘
+         │
+         ▼
+┌────────────────────┐
+│ 创建工件           │  /opsx:ff 或 /opsx:continue
+│ (提案、规格、      │
+│  设计、任务)       │
+└────────┬───────────┘
+         │
+         ▼
+┌────────────────────┐
+│ 实现任务           │  /opsx:apply
+│ (AI 编写代码)      │
+└────────┬───────────┘
+         │
+         ▼
+┌────────────────────┐
+│ 归档和合并         │  /opsx:archive
+│ 规格               │
+└────────────────────┘
+```
+
+## OpenSpec 创建的内容
+
+运行 `openspec init` 之后,你的项目将具有以下结构:
+
+```
+openspec/
+├── specs/              # 真实来源(你的系统行为)
+│   └── <domain>/
+│       └── spec.md
+├── changes/            # 提议的更新(每个变更一个文件夹)
+│   └── <change-name>/
+│       ├── proposal.md
+│       ├── design.md
+│       ├── tasks.md
+│       └── specs/      # 增量规格(正在变更的内容)
+│           └── <domain>/
+│               └── spec.md
+└── config.yaml         # 项目配置(可选)
+```
+
+**两个关键目录:**
+
+- **`specs/`** - 真实来源。这些规格描述了你的系统当前的行为方式。按领域组织(例如 `specs/auth/`、`specs/payments/`)。
+
+- **`changes/`** - 提议的修改。每个变更都有自己的文件夹,包含所有相关的工件。当变更完成时,其规格会合并到主 `specs/` 目录中。
+
+## 理解工件
+
+每个变更文件夹包含指导工作的工件:
+
+| 工件 | 用途 |
+|----------|---------|
+| `proposal.md` | "为什么"和"是什么" - 捕获意图、范围和方法 |
+| `specs/` | 显示 ADDED/MODIFIED/REMOVED 需求的增量规格 |
+| `design.md` | "如何做" - 技术方法和架构决策 |
+| `tasks.md` | 带复选框的实现检查清单 |
+
+**工件相互构建:**
+
+```
+proposal ──► specs ──► design ──► tasks ──► implement
+   ▲           ▲          ▲                    │
+   └───────────┴──────────┴────────────────────┘
+            在学习中更新
+```
+
+在实现过程中了解更多信息后,你始终可以返回并优化早期的工件。
+
+## 增量规格的工作原理
+
+增量规格是 OpenSpec 的核心概念。它们显示相对于当前规格的变更内容。
+
+### 格式
+
+增量规格使用章节来指示变更类型:
+
+```markdown
+# Auth 的增量
+
+## ADDED Requirements
+
+### Requirement: 双因素认证
+系统必须在登录期间要求第二因素。
+
+#### Scenario: 需要 OTP
+- GIVEN 启用了 2FA 的用户
+- WHEN 用户提交有效凭证
+- THEN 显示 OTP 挑战
+
+## MODIFIED Requirements
+
+### Requirement: 会话超时
+系统应在 30 分钟无活动后使会话过期。
+(之前: 60 分钟)
+
+#### Scenario: 空闲超时
+- GIVEN 已认证的会话
+- WHEN 经过 30 分钟无活动
+- THEN 会话失效
+
+## REMOVED Requirements
+
+### Requirement: 记住我
+(已弃用,改用 2FA)
+```
+
+### 归档时发生的事情
+
+当你归档一个变更时:
+
+1. **ADDED** 需求被追加到主规格中
+2. **MODIFIED** 需求替换现有版本
+3. **REMOVED** 需求从主规格中删除
+
+变更文件夹移动到 `openspec/changes/archive/` 以保留审计历史。
+
+## 示例: 你的第一个变更
+
+让我们演示如何为应用程序添加暗黑模式。
+
+### 1. 开始变更
+
+```
+You: /opsx:new add-dark-mode
+
+AI:  创建了 openspec/changes/add-dark-mode/
+     准备创建: proposal
+```
+
+### 2. 创建 Artifacts
+
+使用 `/opsx:ff` (快进) 一次性创建所有规划工件:
+
+```
+You: /opsx:ff
+
+AI:  为 add-dark-mode 创建工件...
+     ✓ proposal.md — 我们为什么做这件事,变更了什么
+     ✓ specs/       — 需求和场景
+     ✓ design.md    — 技术方法
+     ✓ tasks.md     — 实现检查清单
+     准备实现!
+```
+
+### 3. 创建的内容
+
+**proposal.md** - 捕获意图:
+
+```markdown
+# Proposal: 添加暗黑模式
+
+## Intent
+用户要求提供暗黑模式选项,以减少夜间使用时的眼睛疲劳。
+
+## Scope
+- 在设置中添加主题切换
+- 支持系统偏好检测
+- 在 localStorage 中持久化偏好
+
+## Approach
+使用 CSS 自定义属性进行主题设置,并使用 React context 进行状态管理。
+```
+
+**specs/ui/spec.md** - 显示新需求的增量:
+
+```markdown
+# UI 的增量
+
+## ADDED Requirements
+
+### Requirement: 主题选择
+系统应允许用户在浅色和暗黑主题之间进行选择。
+
+#### Scenario: 手动切换
+- GIVEN 用户在任何页面上
+- WHEN 用户点击主题切换
+- THEN 主题立即切换
+- AND 偏好在会话之间持久化
+
+#### Scenario: 系统偏好
+- GIVEN 没有保存偏好的用户
+- WHEN 应用程序加载
+- THEN 使用系统的首选配色方案
+```
+
+**tasks.md** - 实现检查清单:
+
+```markdown
+# Tasks
+
+## 1. Theme Infrastructure
+- [ ] 1.1 创建带有浅色/暗黑状态的 ThemeContext
+- [ ] 1.2 为颜色添加 CSS 自定义属性
+- [ ] 1.3 实现 localStorage 持久化
+
+## 2. UI Components
+- [ ] 2.1 创建 ThemeToggle 组件
+- [ ] 2.2 在设置页面添加切换
+- [ ] 2.3 更新 Header 以包含快速切换
+
+## 3. Styling
+- [ ] 3.1 定义暗黑主题调色板
+- [ ] 3.2 更新组件以使用 CSS 变量
+```
+
+### 4. 实现
+
+```
+You: /opsx:apply
+
+AI:  执行任务...
+     ✓ 1.1 创建了带有浅色/暗黑状态的 ThemeContext
+     ✓ 1.2 向 globals.css 添加了 CSS 自定义属性
+     ✓ 1.3 实现了 localStorage 持久化
+     ✓ 2.1 创建了 ThemeToggle 组件
+     ...
+     所有任务完成!
+```
+
+在实现过程中,如果你发现设计需要调整,只需更新工件并继续。
+
+### 5. 归档
+
+```
+You: /opsx:archive
+
+AI:  归档 add-dark-mode...
+     ✓ 将规格合并到 openspec/specs/ui/spec.md
+     ✓ 移动到 openspec/changes/archive/2025-01-24-add-dark-mode/
+     完成! 准备下一个功能。
+```
+
+你的增量规格现在是主规格的一部分,记录了你的系统的工作方式。
+
+## 验证和审查
+
+使用 CLI 检查你的变更:
+
+```bash
+# 列出活动变更
+openspec list
+
+# 查看变更详细信息
+openspec show add-dark-mode
+
+# 验证规格格式
+openspec validate add-dark-mode
+
+# 交互式仪表板
+openspec view
+```
+
+
 # 概念
 
 OpenSpec 建立在四个原则之上:
